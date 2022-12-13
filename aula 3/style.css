@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    float: right;
+    font-size: 20pt;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+    color: black;
+
+}
+li a:hover{
+    background-color: red;
+    color: brown;    
+    transition: 0.5s;
+
+}
+}
+nav {
+    display: flex;
+}
+.imglogo {
+    height: 80px;
+}
